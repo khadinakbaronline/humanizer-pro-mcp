@@ -1,31 +1,47 @@
-# Humanizer PRO - MCP Server
+# Humanizer PRO - AI Text Humanizer MCP Server
 
 <p align="center">
-  <strong>AI text humanizer MCP server</strong><br>
-  Transform AI-generated content into natural, human-sounding text that bypasses GPTZero, Turnitin, Originality.ai, Copyleaks, ZeroGPT, and other AI detectors.
+  <strong><a href="https://texthumanizer.pro">Humanizer PRO</a> - The Best AI Text Humanizer MCP Server</strong><br>
+  Transform AI-generated content into natural, human-sounding text that bypasses GPTZero, Turnitin, Originality.ai, Copyleaks, ZeroGPT, and other AI detectors. Undetectable AI content rewriting with Stealth, Academic, and SEO modes.
 </p>
 
 <p align="center">
-  <a href="https://texthumanizer.pro">Website</a> |
+  <a href="https://texthumanizer.pro">Humanizer PRO Website</a> |
+  <a href="https://texthumanizer.pro/mcp-docs">MCP Documentation</a> |
   <a href="https://smithery.ai/servers/khadin-akbar/humanizer-pro">Smithery</a> |
   <a href="https://registry.modelcontextprotocol.io">MCP Registry</a>
 </p>
 
 ---
 
-## Quick Setup
+## What is Humanizer PRO?
 
-### ChatGPT
+[Humanizer PRO](https://texthumanizer.pro) is a powerful AI text humanizer that rewrites AI-generated content to make it undetectable by AI detection tools. The [Humanizer PRO MCP server](https://texthumanizer.pro/mcp-docs) brings this capability directly into your favorite AI coding assistants and chat clients through the Model Context Protocol (MCP).
 
-Humanizer PRO works natively with ChatGPT. Simply use the MCP endpoint:
+**Key Features:**
+- Bypass GPTZero, Turnitin, Originality.ai, Copyleaks, ZeroGPT and all major AI detectors
+- Three humanization modes: Stealth (highest bypass rate), Academic (Turnitin-optimized), SEO (marketing-optimized)
+- Built-in AI detection scanner with detailed scoring
+- Word balance tracking and subscription management
+- Works with ChatGPT, Claude, Cursor, VS Code, Windsurf, and all MCP-compatible clients
+
+Learn more at [texthumanizer.pro](https://texthumanizer.pro) or read the full [MCP documentation](https://texthumanizer.pro/mcp-docs).
+
+---
+
+## Quick Setup - Connect Humanizer PRO to Your MCP Client
+
+### ChatGPT - Humanizer PRO MCP Integration
+
+[Humanizer PRO](https://texthumanizer.pro) works natively with ChatGPT. Simply use the MCP endpoint:
 
 ```
 https://texthumanizer.pro/mcp
 ```
 
-### Claude Desktop
+### Claude Desktop - Humanizer PRO MCP Setup
 
-Add to your `claude_desktop_config.json`:
+Add [Humanizer PRO](https://texthumanizer.pro) to your `claude_desktop_config.json`:
 
 **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
@@ -40,15 +56,15 @@ Add to your `claude_desktop_config.json`:
 }
 ```
 
-### Claude Code (CLI)
+### Claude Code (CLI) - Humanizer PRO One-Line Setup
 
 ```bash
 claude mcp add humanizer-pro --transport http https://texthumanizer.pro/mcp
 ```
 
-### Cursor
+### Cursor - Humanizer PRO AI Text Humanizer Setup
 
-Add to your Cursor MCP settings (Settings > MCP Servers > Add):
+Add [Humanizer PRO](https://texthumanizer.pro) to your Cursor MCP settings (Settings > MCP Servers > Add):
 
 ```json
 {
@@ -68,9 +84,9 @@ Or via Cursor Settings UI:
 5. Type: `sse`
 6. URL: `https://texthumanizer.pro/sse`
 
-### Windsurf
+### Windsurf - Humanizer PRO MCP Configuration
 
-Add to your Windsurf MCP config at `~/.codeium/windsurf/mcp_config.json`:
+Add [Humanizer PRO](https://texthumanizer.pro) to your Windsurf MCP config at `~/.codeium/windsurf/mcp_config.json`:
 
 ```json
 {
@@ -82,9 +98,9 @@ Add to your Windsurf MCP config at `~/.codeium/windsurf/mcp_config.json`:
 }
 ```
 
-### VS Code (GitHub Copilot)
+### VS Code (GitHub Copilot) - Humanizer PRO MCP Setup
 
-Add to your VS Code `settings.json` (Cmd/Ctrl + Shift + P > "Preferences: Open User Settings (JSON)"):
+Add [Humanizer PRO](https://texthumanizer.pro) to your VS Code `settings.json` (Cmd/Ctrl + Shift + P > "Preferences: Open User Settings (JSON)"):
 
 ```json
 {
@@ -99,9 +115,9 @@ Add to your VS Code `settings.json` (Cmd/Ctrl + Shift + P > "Preferences: Open U
 }
 ```
 
-### Cline
+### Cline - Humanizer PRO AI Humanizer MCP
 
-Add to your Cline MCP settings:
+Add [Humanizer PRO](https://texthumanizer.pro) to your Cline MCP settings:
 
 ```json
 {
@@ -114,9 +130,9 @@ Add to your Cline MCP settings:
 }
 ```
 
-### Continue
+### Continue - Humanizer PRO MCP Integration
 
-Add to your `~/.continue/config.json`:
+Add [Humanizer PRO](https://texthumanizer.pro) to your `~/.continue/config.json`:
 
 ```json
 {
@@ -133,9 +149,9 @@ Add to your `~/.continue/config.json`:
 }
 ```
 
-### Zed
+### Zed - Humanizer PRO AI Text Humanizer MCP
 
-Add to your Zed settings (`~/.config/zed/settings.json`):
+Add [Humanizer PRO](https://texthumanizer.pro) to your Zed settings (`~/.config/zed/settings.json`):
 
 ```json
 {
@@ -149,9 +165,9 @@ Add to your Zed settings (`~/.config/zed/settings.json`):
 }
 ```
 
-### SSE Transport (Legacy)
+### SSE Transport (Legacy Clients)
 
-For clients that only support SSE transport:
+For MCP clients that only support SSE transport, use [Humanizer PRO](https://texthumanizer.pro) SSE endpoint:
 
 ```json
 {
@@ -163,9 +179,9 @@ For clients that only support SSE transport:
 }
 ```
 
-### Smithery (One-Click Install)
+### Smithery - One-Click Humanizer PRO Install
 
-Install directly from Smithery:
+Install [Humanizer PRO](https://texthumanizer.pro) directly from Smithery:
 
 [![Smithery Badge](https://smithery.ai/badge/khadin-akbar/humanizer-pro)](https://smithery.ai/servers/khadin-akbar/humanizer-pro)
 
@@ -175,44 +191,46 @@ npx @smithery/cli install @khadin-akbar/humanizer-pro
 
 ---
 
-## MCP Tools
+## Humanizer PRO MCP Tools
 
-### humanize_text
+Full documentation: [texthumanizer.pro/mcp-docs](https://texthumanizer.pro/mcp-docs)
 
-Rewrite AI-generated text to sound naturally human and bypass AI detectors like GPTZero, Turnitin, Originality.ai, Copyleaks, and ZeroGPT.
+### humanize_text - AI Text Humanizer Tool
+
+Rewrite AI-generated text to sound naturally human and bypass AI detectors like GPTZero, Turnitin, Originality.ai, Copyleaks, and ZeroGPT. [Humanizer PRO](https://texthumanizer.pro) uses advanced NLP to make AI content undetectable while preserving the original meaning.
 
 **Parameters:**
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
-| `text` | string | Yes | The text to rewrite and humanize |
-| `mode` | string | No | `stealth` (highest bypass rate), `academic` (Turnitin-optimized), `seo` (marketing content). Default: `stealth` |
+| `text` | string | Yes | The AI-generated text to rewrite and humanize |
+| `mode` | string | No | `stealth` (highest bypass rate), `academic` (Turnitin-optimized scholarly tone), `seo` (marketing content). Default: `stealth` |
 | `style` | string | No | `creative`, `journalistic`, or `professional` (stealth mode only) |
 
-### scan_ai_detection
+### scan_ai_detection - AI Content Detection Scanner
 
-Analyze any text for AI-generated patterns. Returns AI probability score (0-100%), human-likeness percentage, verdict (AI-Generated, Mixed, Mostly Human, Human-Written), and recommendation. Capped at 250 words per scan.
+Analyze any text for AI-generated patterns using [Humanizer PRO](https://texthumanizer.pro) detection scanner. Returns AI probability score (0-100%), human-likeness percentage, verdict (AI-Generated, Mixed, Mostly Human, Human-Written), and recommendation. Capped at 250 words per scan.
 
 **Parameters:**
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
-| `text` | string | Yes | The text to analyze |
+| `text` | string | Yes | The text to scan for AI detection |
 
-### check_word_balance
+### check_word_balance - Word Credits Tracker
 
-Check remaining word credits - shows subscription plan type, subscription words remaining, purchased credits, and total available balance.
+Check your remaining [Humanizer PRO](https://texthumanizer.pro) word credits - shows subscription plan type, subscription words remaining, purchased credits, and total available balance.
 
 *No parameters required.*
 
-### get_subscription_plans
+### get_subscription_plans - Humanizer PRO Pricing Plans
 
-Browse available plans and see the user's current plan.
+Browse available [Humanizer PRO](https://texthumanizer.pro) plans and see the user's current plan.
 
-| Plan | Price | Words |
-|------|-------|-------|
-| Free | $0 | 500 words |
-| Starter | $9.99/mo | 30,000 words/mo |
-| Creator | $14.99/mo | 100,000 words/mo |
-| Pro Annual | $119.88/yr | 100,000 words/mo |
+| Plan | Price | Words | Best For |
+|------|-------|-------|----------|
+| Free | $0 | 500 words | Try Humanizer PRO |
+| Starter | $9.99/mo | 30,000 words/mo | Students and bloggers |
+| Creator | $14.99/mo | 100,000 words/mo | Content creators and marketers |
+| Pro Annual | $119.88/yr | 100,000 words/mo | Professionals (save 33%) |
 
 *No parameters required.*
 
@@ -220,9 +238,9 @@ Browse available plans and see the user's current plan.
 
 ## Authentication
 
-This server uses **OAuth 2.0** authentication via Supabase Auth. Users authenticate with Google or email/password when connecting from any MCP client. The OAuth flow is handled automatically by compatible clients.
+[Humanizer PRO](https://texthumanizer.pro) MCP server uses **OAuth 2.0** authentication via Supabase Auth. Users authenticate with Google or email/password when connecting from any MCP client. The OAuth flow is handled automatically by compatible clients.
 
-## Transport
+## Transport Options
 
 | Transport | URL | Recommended |
 |-----------|-----|-------------|
@@ -231,7 +249,7 @@ This server uses **OAuth 2.0** authentication via Supabase Auth. Users authentic
 
 ## Server Discovery
 
-Server card with full tool schemas:
+[Humanizer PRO](https://texthumanizer.pro) server card with full tool schemas:
 ```
 https://texthumanizer.pro/.well-known/mcp/server-card.json
 ```
@@ -239,16 +257,22 @@ https://texthumanizer.pro/.well-known/mcp/server-card.json
 ## Registry Listings
 
 - **Official MCP Registry**: [`io.github.khadinakbaronline/humanizer-pro`](https://registry.modelcontextprotocol.io)
-- **Smithery**: [humanizer-pro](https://smithery.ai/servers/khadin-akbar/humanizer-pro)
+- **Smithery**: [Humanizer PRO on Smithery](https://smithery.ai/servers/khadin-akbar/humanizer-pro)
+
+## Links
+
+- **Website**: [texthumanizer.pro](https://texthumanizer.pro)
+- **MCP Documentation**: [texthumanizer.pro/mcp-docs](https://texthumanizer.pro/mcp-docs)
+- **Server Card**: [texthumanizer.pro/.well-known/mcp/server-card.json](https://texthumanizer.pro/.well-known/mcp/server-card.json)
 
 ## Author
 
-**Khadin Akbar**
+**Khadin Akbar** - Creator of [Humanizer PRO](https://texthumanizer.pro)
 - Twitter: [@khadinakbar](https://x.com/khadinakbar)
 - LinkedIn: [khadinakbar](https://www.linkedin.com/in/khadinakbar)
 - Website: [texthumanizer.pro](https://texthumanizer.pro)
 
 ## License
 
-Proprietary. All rights reserved.
+Proprietary. All rights reserved. [Humanizer PRO](https://texthumanizer.pro) - The Best AI Text Humanizer.
 
