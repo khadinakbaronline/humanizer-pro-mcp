@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.khadinakbaronline/humanizer-pro",
+  "title": "Humanizer PRO",
+  "description": "Humanize AI text to bypass GPTZero, Turnitin, Originality.ai. Stealth, Academic, SEO modes.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://texthumanizer.pro/mcp"
+    },
+    {
+      "type": "sse",
+      "url": "https://texthumanizer.pro/sse"
+    }
+  ]
+}
