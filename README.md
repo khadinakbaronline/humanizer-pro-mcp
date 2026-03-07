@@ -208,9 +208,7 @@ Rewrite AI-generated text to sound naturally human and bypass AI detectors like 
 
 ### scan_ai_detection - AI Content Detection Scanner
 
-Analyze any text for AI-generated patterns using [Humanizer PRO](https://texthumanizer.pro) detection scanner. Returns AI probability score (0-100%), human-likeness percentage, verdict (AI-Generated, Mixed, Mostly Human, Human-Written), and recommendation. Capped at 250 words per scan.
-
-**Parameters:**
+Analyze any text for AI-generated patterns using [Humanizer PRO](https://texthumanizer.pro) detection scanner. Returns AI probability score (0-100%), human-likeness percentage, verdict (AI-Generated, Mixed, Mostly Human, Human-Written), and recommendation. **Parameters:**
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `text` | string | Yes | The text to scan for AI detection |
